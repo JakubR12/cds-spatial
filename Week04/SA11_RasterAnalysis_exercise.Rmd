@@ -39,7 +39,10 @@ ldf <- data.frame(place = c("Empire State Building", "Museum of Natural History"
                  longitude=c(-73.98566,-73.97398, -73.96964),
                  latitude=c(40.74844,40.78132, 40.77734))
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 # Read in the tree canopy single-band raster
 canopy <- raster("../Week02/data/canopy.tif")
 
