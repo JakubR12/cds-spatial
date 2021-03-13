@@ -34,7 +34,8 @@ The first step is to compute the optimal bandwidth for kernel smoothing under th
 ```{r bandwidth-exercise, eval = FALSE}
 # Install spatialkernel (the CRAN version is outdated, so you need to grab the most recent maintained version from Github). You may need to install.packages("devtools") and then run:
 devtools::install_github("becarioprecario/spatialkernel")
-
+install.packages("devtools")
+devtools::install_github("becarioprecario/spatialkernel")
 # Libraries
 library(spatstat)
 library(spatialkernel)
